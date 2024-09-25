@@ -1,0 +1,40 @@
+.popular {
+    padding-bottom: 50rem;
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 22rem;
+        line-height: 145%;
+        letter-spacing: 0.14em;
+        color: #fff;
+        margin-bottom: 32rem;
+    }
+    &__films{
+        display: flex;
+        gap: 40rem;
+    }
+}
+.swiper {
+    margin-left:0;
+    width: 450rem;
+  }
+  
+  .swiper-slide {
+    
+    // text-align: center;
+    width: 150rem;
+    background: #fff;
+    
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 150rem;
+    height: 100%;
+    object-fit: cover;
+  }
+  
